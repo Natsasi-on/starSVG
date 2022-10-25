@@ -1,0 +1,526 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14162B;
+}
+
+
+#mySVG {
+    height: 400px;
+}
+
+#sun {
+    animation: aSun 2s infinite;
+    transform-origin: center;
+}
+
+@keyframes aSun {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+#circle1,
+#circle2,
+#circle3 {
+    animation: aCircle 5s forwards infinite;
+    transform-origin: center;
+
+}
+
+@keyframes aCircle {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#circle4 {
+    animation: aCircle2 10s forwards infinite;
+    transform-origin: center;
+}
+
+@keyframes aCircle2 {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.8);
+    }
+}
+
+#mars1,
+#mars2,
+#mar3,
+#uranus1,
+#uranus2 {
+    animation: aCircle1 20s linear infinite;
+    transform-origin: center;
+
+}
+
+@keyframes aCircle1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#shooting_star {
+    animation: aShooting 2s linear infinite;
+}
+
+@keyframes aShooting {
+    100% {
+        transform: translate(-800px, 500px);
+    }
+}
+
+#circle3 {
+    animation: aCircle3 2s linear infinite;
+}
+
+@keyframes aCircle3 {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+#star1,
+#star3 {
+    animation: aStars1 1s linear infinite;
+}
+
+@keyframes aStars1 {
+
+    0%,
+    100% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+}
+
+#star2,
+#star4,
+#star5 {
+    animation: aStars2 1s 1.5s linear infinite;
+}
+
+@keyframes aStars2 {
+
+    0%,
+    100% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+
+#myradial-gradient1 {
+    stop-color: #f05a28;
+}
+
+#myradial-gradient2 {
+    stop-color: #8b423f;
+}
+
+#myradial-gradient3 {
+    stop-color: #49334d;
+}
+
+#myradial-gradient4 {
+    stop-color: #302d53;
+}
+
+#myradial-gradient5 {
+    stop-color: #14162b;
+}
+
+#background {
+    width: 500px;
+    height: 500px;
+    fill: url('#radial-gradient');
+}
+
+
+#circle4,
+#circle3,
+#circle2,
+#circle1 {
+    fill: none;
+    stroke-miterlimit: 10;
+}
+
+#circle4 {
+    stroke: url('#linear-gradient');
+}
+
+#circle1 {
+    stroke: url('#linear-gradient-2');
+}
+
+#circle2 {
+    stroke: url('#linear-gradient-3');
+}
+
+#circle3 {
+    stroke: url('#linear-gradient');
+}
+
+#uranus2_1 {
+    fill: url('#linear-gradient-5');
+}
+
+#uranus2_2 {
+    fill: none;
+    stroke: #dd0ea7;
+    stroke-miterlimit: 10;
+    /* transform: translate(0.8px, 0px); */
+}
+
+#uranus1_1 {
+
+    fill: url('#linear-gradient-6');
+}
+
+#uranus1_2,
+#uranus1_3 {
+    fill: none;
+    stroke: #00adee;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    transform: translate(0.8px, 0);
+}
+
+#mar3 {
+    fill: url('#linear-gradient-7');
+}
+
+#mars2 {
+    fill: url('#linear-gradient-8');
+}
+
+#mars1 {
+    fill: url('#linear-gradient-9');
+}
+
+#star5 {
+    fill: url('#linear-gradient-10');
+}
+
+#star4 {
+    fill: url('#linear-gradient-11');
+}
+
+#star3 {
+    fill: url('#linear-gradient-12');
+}
+
+#star2 {
+    fill: url('#linear-gradient-13');
+}
+
+#star1 {
+    fill: url('#linear-gradient-14');
+}
+
+#sun_1 {
+    fill: url('#radial-gradient-2');
+    transform: translate(0.8px, 0);
+}
+
+#sun_2 {
+    fill: #f6921e;
+}
+
+#sun_3 {
+    fill: #faaf40;
+    transform: translate(0.8px, 0);
+}
+
+#sun_4 {
+    fill: #ffdd15;
+    transform: translate(0.8px, 0);
+}
+
+#sun_5 {
+    fill: url('#radial-gradient-3');
+}
+
+#shooting_star_1 {
+    fill: url('#linear-gradient-15');
+}
+
+#shooting_star_2 {
+    fill: url('#linear-gradient-16');
+}
+
+#shooting_star_3 {
+    fill: url('#linear-gradient-17');
+}
+
+#mylinear-gradient_1 {
+    stop-color: #00a69c;
+}
+
+#mylinear-gradient_2 {
+    stop-color: #00a7a5;
+}
+
+#mylinear-gradient_3 {
+    stop-color: #00a9bf;
+}
+
+#mylinear-gradient_4 {
+    stop-color: #00ade8;
+}
+
+#mylinear-gradient_5 {
+    stop-color: #00adee;
+}
+
+#mylinear-gradient-2_1 {
+    stop-color: #eb008b;
+}
+
+#mylinear-gradient-2_2 {
+    stop-color: #e2078f;
+}
+
+#mylinear-gradient-2_3 {
+    stop-color: #c81a9a;
+}
+
+#mylinear-gradient-2_4 {
+    stop-color: #9e39ab;
+}
+
+#mylinear-gradient-2_5 {
+    stop-color: #6463c4;
+}
+
+#mylinear-gradient-2_6 {
+    stop-color: #1b99e2;
+}
+
+#mylinear-gradient-2_7 {
+    stop-color: #00adee;
+}
+
+#mylinear-gradient-3_1 {
+    stop-color: #00adee;
+}
+
+#mylinear-gradient-3_2 {
+    stop-color: #1f86d2;
+}
+
+#mylinear-gradient-3_3 {
+    stop-color: #652d90;
+}
+
+#mylinear-gradient-5_1 {
+    stop-color: #eb008b;
+}
+
+#mylinear-gradient-5_2 {
+    stop-color: #e70089;
+}
+
+#mylinear-gradient-5_3 {
+    stop-color: #da0284;
+}
+
+#mylinear-gradient-5_4 {
+    stop-color: #c6047a;
+}
+
+#mylinear-gradient-5_5 {
+    stop-color: #a9076d;
+}
+
+#mylinear-gradient-5_6 {
+    stop-color: #830b5d;
+}
+
+#mylinear-gradient-5_7 {
+    stop-color: #550f48;
+}
+
+#mylinear-gradient-5_8 {
+    stop-color: #201530;
+}
+
+#mylinear-gradient-5_9 {
+    stop-color: #14162b;
+}
+
+#mylinear-gradient-6_1 {
+    stop-color: #00dbee;
+}
+
+#mylinear-gradient-6_2 {
+    stop-color: #01d7ec;
+}
+
+#mylinear-gradient-6_3 {
+    stop-color: #04cae5;
+}
+
+#mylinear-gradient-6_4 {
+    stop-color: #0ab6da;
+}
+
+#mylinear-gradient-6_5 {
+    stop-color: #1299ca;
+}
+
+#mylinear-gradient-6_6 {
+    stop-color: #1c73b5;
+}
+
+#mylinear-gradient-6_7 {
+    stop-color: #28469c;
+}
+
+#mylinear-gradient-6_8 {
+    stop-color: #2e3191;
+}
+
+#mylinear-gradient-7_1 {
+    stop-color: #8bc53f;
+}
+
+#mylinear-gradient-7_2 {
+    stop-color: #88c443;
+}
+
+#mylinear-gradient-7_3 {
+    stop-color: #7ec350;
+}
+
+#mylinear-gradient-7_4 {
+    stop-color: #6dc064;
+}
+
+#mylinear-gradient-7_5 {
+    stop-color: #56bc81;
+}
+
+#mylinear-gradient-7_6 {
+    stop-color: #39b7a7;
+}
+
+#mylinear-gradient-7_7 {
+    stop-color: #15b1d4;
+}
+
+#mylinear-gradient-7_8 {
+    stop-color: #00adee;
+}
+
+#mylinear-gradient-8_1 {
+    stop-color: #c3996b;
+}
+
+#mylinear-gradient-8_2 {
+    stop-color: #c69567;
+}
+
+#mylinear-gradient-8_3 {
+    stop-color: #ce895a;
+}
+
+#mylinear-gradient-8_4 {
+    stop-color: #dc7646;
+}
+
+#mylinear-gradient-8_5 {
+    stop-color: #ef5b29;
+}
+
+#mylinear-gradient-8_6 {
+    stop-color: #f05a28;
+}
+
+#mylinear-gradient-8_7 {
+    stop-color: #e65928;
+}
+
+#mylinear-gradient-8_8 {
+    stop-color: #cc5628;
+}
+
+#mylinear-gradient-8_9 {
+    stop-color: #a15128;
+}
+
+#mylinear-gradient-8_10 {
+    stop-color: #754c28;
+}
+
+#mylinear-gradient-9_1 {
+    stop-color: #eb008b;
+}
+
+#mylinear-gradient-9_2 {
+    stop-color: #e61f9d;
+}
+
+#mylinear-gradient-9_3 {
+    stop-color: #e145b2;
+}
+
+#mylinear-gradient-9_4 {
+    stop-color: #dc65c5;
+}
+
+#mylinear-gradient-9_5 {
+    stop-color: #d87fd4;
+}
+
+#mylinear-gradient-9_6 {
+    stop-color: #d594e0;
+}
+
+#mylinear-gradient-9_7 {
+    stop-color: #d3a2e8;
+}
+
+#mylinear-gradient-9_8 {
+    stop-color: #d1aaed;
+}
+
+#mylinear-gradient-9_9 {
+    stop-color: #d1adee;
+}
