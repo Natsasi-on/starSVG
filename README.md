@@ -2,6 +2,7 @@
 <p align="center">
  The stars are animated to revolve around the sun.
 <br>
+ 
 https://github.com/Natsasi-on/starSVG/assets/100752017/4d71654e-c1a9-4e93-b50c-d947e5bab9b3
  
 </p>
