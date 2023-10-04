@@ -3,6 +3,11 @@
  The stars are animated to revolve around the sun.
     <br>
     <a href="https://article-blog-website.onrender.com/index">[ Live Website ]</a>
+ 
+
+https://github.com/Natsasi-on/starSVG/assets/100752017/4d71654e-c1a9-4e93-b50c-d947e5bab9b3
+
+
 </p>
 
 ## Technologies and Techniques Utilized
