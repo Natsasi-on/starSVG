@@ -1,8 +1,9 @@
 <h1 align="center">Animation using SVG</h1>
 <p align="center">
  The stars are animated to revolve around the sun.
-    <br>
+<br>
 https://github.com/Natsasi-on/starSVG/assets/100752017/4d71654e-c1a9-4e93-b50c-d947e5bab9b3
+ 
 </p>
 
 ## Technologies and Techniques Utilized
@@ -20,11 +21,6 @@ This project utilized Adobe XD to create vector files and employed CSS to create
 
 This project is licensed under the Natsasion License. For detailed information, please refer to the [LICENSE](LICENSE.md) file.
 
-## Get Started
-
-Explore our live website to discover a diverse range of articles and share your own thoughts!
-
-For more details, visit the [Live website](https://article-blog-website.onrender.com/index).
 
 ## Contact
 
